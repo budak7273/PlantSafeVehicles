@@ -1,0 +1,25 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0.0",
+	"SemVersion": "1.0.0",
+	"FriendlyName": "Plant Safe Vehicles",
+	"Description": "Change or remove the range in which vehicles destroy plants when you drive over them!",
+	"Category": "Modding",
+	"CreatedBy": "Robb",
+	"CreatedByURL": "https://ficsit.app/mod/PlantSafeVehicles",
+	"DocsURL": "https://github.com/budak7273/PlantSafeVehicles/",
+	"MarketplaceURL": "",
+	"SupportURL": "http://discord.gg/zqp6U7Y7Nu",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Plugins": [
+		{
+			"Name": "SML",
+			"Enabled": true,
+			"SemVersion": "^3.4.1"
+		}
+	]
+}
