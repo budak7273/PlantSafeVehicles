@@ -1,31 +1,26 @@
 # Plant Safe Vehicles
 
-Change or remove the range in which vehicles destroy plants when you drive over them!
+Remove (or increase) the range in which vehicles destroy plants when you drive over them!
 
 **Multiplayer Compatible!**
 
-**Report Bugs and Give Feedback here** -> [Nog's Mods Discord](https://discord.gg/nakafUdRfj)
+**Report Bugs and Give Feedback here** -> [Discord](https://discord.gg/nakafUdRfj)
 
 This mod was inspired by a suggestion from `Cyclonit#7350`.
+
+Consider using the mod [Gardener Toolkit](https://ficsit.app/mod/GardenerTools) to selectively restore foliage that may have been removed before you found this mod.
 
 Wondering where the mod icon came from? Ask Feyko.
 
 ## Usage
 
-By default, the mod will set the plant destruction radius of all vehicles to 0 meters,
-meaning that they will no longer destroy plants when you drive over them.
-You can also increase this range to an arbitrary number, but be careful going too big.
-
+By default, the mod will set the scale of the plant destruction colliders of all vehicles to 0,
+meaning that they **will no longer destroy plants** (and nuts and berries) when you drive over them.
 You can modify this in the mod config settings.
 
-The base-game's plant destruction radius differs depending on the vehicle.
-For example, the explorer's range is 3750 centimeters.
-
-## Known Bugs
-
-Unfortunately, even with the plant destruction radius set to 0,
-**vehicles will still destroy Berry and Nut Bushes** when you drive directly over them.
-I can't seem to find a cause, or fix, for this behavior.
+The value you control is a multiplier to the size of the base game's collider for the vehicle,
+so the resulting plant destruction radius differs depending on the vehicle.
+For example, the explorer's base-game range is 1.0 scale on a box of 300.0 x 200.0 x 125.0 centimeters.
 
 ## Screenshots
 
